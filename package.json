@@ -10,6 +10,9 @@
     "prepublish:npm": "npm run build",
     "publish:npm": "npm publish --access public"
   },
+  "files": [
+    "dist"
+  ],
   "devDependencies": {
     "@nestjs/common": "^5.0.0",
     "@types/node": "^7.0.41",
